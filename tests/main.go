@@ -9,7 +9,7 @@ import (
 var baseURL string
 
 func init() {
-	flag.StringVar(&baseURL, "base_url", "http://localhost:8080", "")
+	flag.StringVar(&baseURL, "base_url", "http://localhost:8080", "set base url api")
 	flag.Parse()
 }
 
